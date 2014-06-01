@@ -7,27 +7,27 @@ Steps to mirror the Raspberry Pi X server on your machine:
 
 1. Install [Xephyr](http://en.wikipedia.org/wiki/Xephyr "Xephyr on wikipedia") on your linux machine
   {% highlight sh %}
-  pacman -S xorg-server-xephyr
+  # pacman -S xorg-server-xephyr
   {% endhighlight %}
 
 2. Launch Xephyr Server in Gnome. Open a terminal and type:
-  ```Shell
+  {% highlight sh %}
   Xephyr -ac -br -noreset -screen 1366x768 :1
-  ```
+  {% endhighlight %}
 
 3. Connect to RPI via ssh
-  ```Shell
+  {% highlight sh %}
   ssh pi@rpi-ip
-  ```
+  {% endhighlight %}
 
 4. Export RPI Display
-```Shell
+{% highlight sh %}
 export DISPLAY=pc-ip:1
-```
+{% endhighlight %}
 
 5. Test Midory buy running "midori" in ssh terminal
 
 6. In ssh terminal run your graphical environment (for instance LXDE)
-```Shell
+{% highlight sh %}
 $ startlxde
-```
+{% endhighlight %}
