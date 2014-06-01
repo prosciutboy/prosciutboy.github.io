@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            My Notes
+title:            Notes
 tagline:          'just to not forget'
 description:      'Notes mainly on linux on x86, Raspberry Pi, and some useful tricks.'
 url:              http://prosciutboy.github.io
