@@ -4,10 +4,11 @@ title: mirror the Raspberry Pi X server
 ---
 
 Steps to mirror the Raspberry Pi X server on your machine:
+
 1. Install [Xephyr](http://en.wikipedia.org/wiki/Xephyr "Xephyr on wikipedia") on your linux machine
-  ```Shell
+  {% highlight sh %}
   pacman -S xorg-server-xephyr
-  ```
+  {% endhighlight %}
 
 2. Launch Xephyr Server in Gnome. Open a terminal and type:
   ```Shell
