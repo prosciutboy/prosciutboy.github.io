@@ -7,7 +7,7 @@ title: About
   Welcome on this blog. I will push my notes and tutorials here. They will be useful for me in the future and who knows, they might be also for you.
 </p>
 
-this blog is build on [Poole](https://github.com/poole "Poole project on github") and using the [Hyde](http://hyde.getpoole.com "Hyde project") theme.
+This blog is built on [Poole](https://github.com/poole "Poole project on github") and using the [Hyde](http://hyde.getpoole.com "Hyde project") theme.
 
 ## Contact
 
