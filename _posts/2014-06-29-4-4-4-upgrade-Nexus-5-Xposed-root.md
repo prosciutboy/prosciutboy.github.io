@@ -8,10 +8,10 @@ Uninstall Xposed (from the Xposed app itself, not from the setting/apps menu)
 Download Nexus 5 [factory image](https://dl.google.com/dl/android/aosp/hammerhead-ktu84p-factory-35ea0277.tgz)
 
 In case of OTA 4.4.3 uncompress the following files
-*bootloader-hammerhead-hhz11k.img
-*radio-hammerhead-m8974a-2.0.50.1.13.img
-*boot.img
-*system.img
+* bootloader-hammerhead-hhz11k.img
+* radio-hammerhead-m8974a-2.0.50.1.13.img
+* boot.img
+* system.img
 
 Download latest [SuperSu UPDATE-SuperSU-v2.00.zip](http://download.chainfire.eu/supersu) and save it on the handset via MTP or adb command
 {% highlight sh %}$ adb push UPDATE-SuperSU-v2.00.zip /sdcard/{% endhighlight %}
